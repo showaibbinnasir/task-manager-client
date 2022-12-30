@@ -2,6 +2,20 @@
   text-align: center;
 }
 
+.overFlow{
+  overflow: scroll;
+  overflow-x: hidden;
+  border-radius: 15px;
+}
+.overFlow::-webkit-scrollbar{
+  width: 0px;
+  background: #23B586;
+}
+
+.overFlow::-webkit-scrollbar-thumb{
+  background-color: white;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
